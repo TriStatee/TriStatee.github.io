@@ -43,6 +43,7 @@ h1{
 }
 
 .countdown-el h3{
+    margin-left: 3px;
     margin-bottom: 0px;
     border: solid white 2px;
     border-radius: 3px;
