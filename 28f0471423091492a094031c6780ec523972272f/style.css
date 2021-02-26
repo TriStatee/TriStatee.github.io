@@ -25,20 +25,33 @@ h1{
 
 }
 .countdown-container{
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 400px;
+    box-shadow: 0 0 10px 2px #3333331a;
+    border-radius: 3px;
+    overflow:hidden;
+  
 }
-.big-text{
-        font-weight: bold;
-        font-size: 6rem;
-        line-height: 1;
-        margin: 1rem 2rem;
-}
+
 .countdown-el{
-        text-align: center;
+    float: left;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 110vh;
+    margin: 2%;
 }
-.countdown-el span{
-    font-size: 1.5rem;
+
+.countdown-el h3{
+    border: solid white 2px;
+    border-radius: 3px;
+    background-color: aliceblue;
+    width:20rem;
+    text-align: center;
+    display: flex;
+}
+.countdown-el img{
+    height: 40rem;
+    object-fit: fill;
 }
