@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(img1.jpg);
+    background: rgb(7, 7, 7);
     min-height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -18,9 +18,10 @@ body {
 
 
 h1{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: normal;
     margin-top: 5rem;
+    color: white;
     
 
 }
@@ -28,8 +29,6 @@ h1{
     align-items: center;
     justify-content: center;
     width: 400px;
-    box-shadow: 0 0 10px 2px #3333331a;
-    border-radius: 3px;
     overflow:hidden;
   
 }
@@ -38,20 +37,22 @@ h1{
     float: left;
     text-align: center;
     align-content: center;
-    width: 100%;
+    width: 90%;
     height: 110vh;
     margin: 2%;
 }
 
 .countdown-el h3{
+    margin-bottom: 0px;
     border: solid white 2px;
     border-radius: 3px;
     background-color: aliceblue;
-    width:20rem;
+    width:auto;
     text-align: center;
     display: flex;
 }
 .countdown-el img{
     height: 40rem;
+    width: auto;
     object-fit: fill;
 }
