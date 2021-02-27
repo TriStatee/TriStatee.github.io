@@ -18,13 +18,17 @@ body {
 
 
 h1{
-    font-size: 2rem;
+    font-family: 'Comfortaa';
     font-weight: normal;
-    margin-top: 5rem;
     color: white;
-    
-
 }
+
+h4{
+    font-family: 'Comfortaa';
+    font-weight: normal;
+    color: white;
+}
+
 .countdown-container{
     align-items: center;
     justify-content: center;
@@ -37,23 +41,24 @@ h1{
     float: left;
     text-align: center;
     align-content: center;
-    width: 90%;
+    width: 100%;
     height: 110vh;
     margin: 2%;
 }
 
 .countdown-el h3{
-    margin-left: 3px;
+    font-family: 'Comfortaa';
+    font-weight: normal;
     margin-bottom: 0px;
+    margin-left: 3%;
     border: solid white 2px;
     border-radius: 3px;
-    background-color: aliceblue;
-    width:auto;
+    background-color: rgb(255, 255, 255);
+    width:20vh;
     text-align: center;
-    display: flex;
 }
 .countdown-el img{
     height: 40rem;
-    width: auto;
+    width: 97%;
     object-fit: fill;
 }
